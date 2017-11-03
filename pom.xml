@@ -5,7 +5,7 @@
 
 	<groupId>com.adilkaraoz.spring</groupId>
 	<artifactId>spring-boot-security-apikey-example</artifactId>
-	<version>0.1.0</version>
+	<version>0.1.1</version>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -26,7 +26,7 @@
 		<dependency>
 			<groupId>com.adilkaraoz.spring</groupId>
 			<artifactId>spring-boot-security-apikey</artifactId>
-			<version>0.1.2.RELEASE</version>
+			<version>0.1.4.RELEASE</version>
 		</dependency>
 	</dependencies>
 

@@ -8,13 +8,13 @@ This project demonstrates the using of [spring-boot-security-apikey](https://git
 	validatorService.setApiKeyValidator(defaultApiKeyValidator);
 ```
 
-#### Also you can define custome api key validator implements from ApiKeyValidatorBase
+#### Also you can define custom api key validator implements from ApiKeyValidatorBase
 ```java
 
 	class CustomApiKeyValidator implements ApiKeyValidatorBase {
 
-		boolean validate(String apiKey, String requestURI) {
-			// constrol apiKey for requestURI and return true or false here
+		boolean validate(String apiKey, String requestURI, String referrer) {
+			// control apiKey for requestURI and referrer then return true or false here
 		}
 	
 		boolean isEnabled() {
